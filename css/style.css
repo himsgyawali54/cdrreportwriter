@@ -379,7 +379,7 @@ footer .container > p:last-of-type {
 .whatsapp-card .card .card-body .text-box {
   background-color: #fff;
   text-align: start;
-  width: 100%;
+  width: fit-content;
   padding: 0.7rem 1rem;
   margin: 0;
   font-size: var(--p-h4-fontsize);
