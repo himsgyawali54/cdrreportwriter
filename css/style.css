@@ -178,7 +178,7 @@ header .nav-item > a:hover::before {
 }
 
 .row .col-12:has(form) .card {
-  box-shadow: 20px 12px 30px #a1a1a19c;
+  box-shadow: 20px 5px 30px 10px #a1a1a14a;
   border: none;
 }
 .row .col-12:has(form) .card form .row {
@@ -195,6 +195,7 @@ header .nav-item > a:hover::before {
   padding: 0rem 1rem;
   background-color: white;
   color: #6e6b7b;
+  font-weight: 600;
   font-size: var(--h5-fontsize);
 }
 .row .col-12:has(form) .card form .row .col .form-control {
@@ -238,6 +239,9 @@ header .nav-item > a:hover::before {
 .footer-form .info-row i {
   font-size: var(--h2-fontsize);
   color: var(--color-primary);
+}
+.footer-form .row .col-12:has(form) .card {
+  box-shadow: none;
 }
 .footer-form form input {
   font-size: var(--p-h4-fontsize);

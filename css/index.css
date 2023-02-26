@@ -75,7 +75,7 @@
 
 #index .hero .row .col-12:has(form) {
   position: absolute;
-  bottom: -10%;
+  bottom: -5%;
 }
 @media (max-width: 991px) {
   #index .hero .row .col-12:has(form) {
@@ -107,7 +107,7 @@
 }
 
 #index .why-choose-us .card i {
-  font-size: var(--h2-fontsize);
+  font-size: var(--h1-fontsize);
 }
 #index .why-choose-us .step-1 {
   border: 1px solid #3ec38d;
